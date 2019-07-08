@@ -1,15 +1,9 @@
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 // Add your functions and code here
-
-
+var destructivelyAppendKitten = (el) => arr.push(el)
 describe('Arrays', function() {
-  describe('kittens', function() {
-    it('defines kittens as `var kittens = ["Milo", "Otis", "Garfield"]`', function() {
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-    })
-  })
-
+  
   describe('destructivelyAppendKitten(name)', function() {
     it('appends a kitten to the end of the kittens array', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
